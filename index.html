@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+    <link rel="stylesheet" href="./f2.css">
+</head>
+
+<body>
+
+    <div id="z1">
+        <form>
+            <label for="email">Email</label><br>
+            <input type="text" id="email" placeholder="Example@email.com" name="email" required>
+            <br>
+            <div id="div1" class="hide">Make sure email is more than 3 characters and has @ and a .</div>
+            <br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" placeholder="Your Password" name="pwd" required>
+            <br>
+            <div id="div2" class="hide1">Make sure password is more than 8 characters.</div>
+            <div class="clear" id="cl1">All good to go!</div>
+            <br>
+            <button id="sub" onclick="aler()">Submit</button>
+        </form>
+    </div>
+
+
+    <script src="./f2.js"></script>
+
+</body>
+
+</html>
